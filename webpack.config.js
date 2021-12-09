@@ -11,8 +11,9 @@ module.exports = {
         tickets: "./assets/js/tickets.js"
     },
     output: {
-        path: path.resolve(__dirname, 'dist'),
-        filename: 'main.bundle.js'
+        //the name of each entry object will be put in the [name]
+        filename: '[name].bundle.js',
+        path: __dirname + 'dist'
     },
     //used within webpack to help understand what languages you are using
     plugins:[
