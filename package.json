@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.6.1",
+    "image-webpack-loader": "^8.0.1",
     "jquery": "^3.6.0",
     "popper": "^1.0.1",
     "popper.js": "^1.16.1",
